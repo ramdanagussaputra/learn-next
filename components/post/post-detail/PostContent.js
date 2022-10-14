@@ -38,6 +38,7 @@ const PostContent = ({ post }) => {
                 <SyntaxHighlighter language={language} style={atomDark}>
                     {code.children}
                 </SyntaxHighlighter>
+                // Test
             );
         },
     };
